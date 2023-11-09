@@ -4,6 +4,12 @@
 # commit3
 =======
 # commit4
+<<<<<<< HEAD
+>>>>>>> featureA
+=======
+# commit4
+
+# commit6
 >>>>>>> featureA
 
 from flask import Flask, render_template, request, redirect, url_for, send_from_directory
@@ -52,3 +58,5 @@ def send_file(filename):
 
 if __name__ == '__main__':
     app.run(debug=True)
+
+# main
